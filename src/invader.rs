@@ -5,7 +5,7 @@ pub struct Invader{
     pub y:usize,
 }
 pub struct Invaders{
-    pub army:vec<Invader>,
+    pub army:Vec<Invader>,
     direction:i32,
 }
 

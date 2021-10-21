@@ -1,5 +1,5 @@
 use crate::frame::{Drawable,Frame};
-use crate::invaders::Invaders;
+use crate::invader::Invaders;
 use crate::shot::Shot;
 use crate::{NUM_COLS,NUM_ROWS};
 use std::time::Duration;
@@ -38,7 +38,7 @@ impl Player {
 
 impl Drawable for Player {
      
-        fn draw(frame: &mut Frame){
+        fn draw(&self,frame: &mut Frame){
             unimplemented!()
         }
     }
