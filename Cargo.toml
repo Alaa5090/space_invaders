@@ -7,3 +7,5 @@ edition = "2018"
 
 [dependencies]
 crossterm = "^0"
+rusty_time="^0"
+rusty_audio="1.1.4"
